@@ -1,0 +1,26 @@
+source 'https://github.com/CocoaPods/Specs'
+source 'https://github.com/twilio/cocoapod-specs'
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['EXPANDED_CODE_SIGN_IDENTITY'] = ""
+            config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
+            config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
+        end
+    end
+end
+
+target 'Altimetrik' do
+    pod 'RealmSwift', '~> 3.20.0'
+    pod 'ReachabilitySwift'
+    
+    target 'Altimetrik_Tests' do
+
+    inherit! :search_paths
+    pod 'RealmSwift', '~> 3.20.0'
+    pod 'ReachabilitySwift'
+    end
+end
