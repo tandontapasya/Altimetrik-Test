@@ -3,7 +3,7 @@
 //
 
 import XCTest
-@testable import Altemetrik
+@testable import Altimetrik
 
 class MockSearchService: SearchServiceProtocol {
     var isSearchAPICalled = false

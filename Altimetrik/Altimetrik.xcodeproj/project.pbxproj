@@ -29,10 +29,10 @@
 		99C00F7A24F1B8A8008FF084 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C00F7924F1B8A8008FF084 /* DatabaseManager.swift */; };
 		99C00F7C24F1C12C008FF084 /* RealmOperationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C00F7B24F1C12C008FF084 /* RealmOperationsManager.swift */; };
 		99C00F7E24F1C697008FF084 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C00F7D24F1C697008FF084 /* NetworkManager.swift */; };
-		99C00F9424F256E7008FF084 /* Altemetrik_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C00F9324F256E7008FF084 /* Altemetrik_Tests.swift */; };
+		99C00F9424F256E7008FF084 /* Altimetrik_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C00F9324F256E7008FF084 /* Altimetrik_Tests.swift */; };
 		99D77A9024F435FA00D13285 /* CartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D77A8E24F435FA00D13285 /* CartsViewController.swift */; };
 		99D77A9124F435FA00D13285 /* CartsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99D77A8F24F435FA00D13285 /* CartsViewController.xib */; };
-		99D77A9524F452E900D13285 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D77A9424F452E900D13285 /* ViewControllerTests.swift */; };
+		99D77A9524F452E900D13285 /* SearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D77A9424F452E900D13285 /* SearchViewControllerTests.swift */; };
 		99DC055A24F0F5890011F408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC055924F0F5890011F408 /* AppDelegate.swift */; };
 		99DC055C24F0F5890011F408 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC055B24F0F5890011F408 /* SceneDelegate.swift */; };
 		99DC055E24F0F5890011F408 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DC055D24F0F5890011F408 /* SearchViewController.swift */; };
@@ -41,6 +41,8 @@
 		99DC056624F0F58A0011F408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DC056424F0F58A0011F408 /* LaunchScreen.storyboard */; };
 		99F5844624F4568D002C53C0 /* MockSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5844524F4568D002C53C0 /* MockSearchService.swift */; };
 		99F5844824F459D0002C53C0 /* SearchResultsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5844724F459D0002C53C0 /* SearchResultsTest.swift */; };
+		9EC452697EE4EC1D5F3899B2 /* Pods_Altimetrik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF5A09E68A992F2DF437CF /* Pods_Altimetrik.framework */; };
+		E7667DB37E9CDCF84B02744C /* Pods_Altimetrik_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CFB399DD4DCC0D18F6A56C /* Pods_Altimetrik_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36A126AA85D8C762CA0A1B21 /* Pods-Altimetrik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altimetrik.release.xcconfig"; path = "Target Support Files/Pods-Altimetrik/Pods-Altimetrik.release.xcconfig"; sourceTree = "<group>"; };
+		6C8FB0F9AE2B4DCD4E151744 /* Pods-Altimetrik_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altimetrik_Tests.release.xcconfig"; path = "Target Support Files/Pods-Altimetrik_Tests/Pods-Altimetrik_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		877F675CB17DB15745611005 /* Pods-Altimetrik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altimetrik.debug.xcconfig"; path = "Target Support Files/Pods-Altimetrik/Pods-Altimetrik.debug.xcconfig"; sourceTree = "<group>"; };
 		9944CBC124F4E79900C9BC53 /* AlbumListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListCellViewModel.swift; sourceTree = "<group>"; };
 		9944CBC324F4FF9000C9BC53 /* Content.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Content.txt; sourceTree = "<group>"; };
 		9944CBC724F4FFF700C9BC53 /* AlbumViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModelTest.swift; sourceTree = "<group>"; };
@@ -80,11 +85,11 @@
 		99C00F7B24F1C12C008FF084 /* RealmOperationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmOperationsManager.swift; sourceTree = "<group>"; };
 		99C00F7D24F1C697008FF084 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		99C00F9124F256E7008FF084 /* Altimetrik_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Altimetrik_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		99C00F9324F256E7008FF084 /* Altemetrik_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altemetrik_Tests.swift; sourceTree = "<group>"; };
+		99C00F9324F256E7008FF084 /* Altimetrik_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altimetrik_Tests.swift; sourceTree = "<group>"; };
 		99C00F9524F256E7008FF084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99D77A8E24F435FA00D13285 /* CartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartsViewController.swift; sourceTree = "<group>"; };
 		99D77A8F24F435FA00D13285 /* CartsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartsViewController.xib; sourceTree = "<group>"; };
-		99D77A9424F452E900D13285 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		99D77A9424F452E900D13285 /* SearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTests.swift; sourceTree = "<group>"; };
 		99DC055624F0F5890011F408 /* Altimetrik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Altimetrik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DC055924F0F5890011F408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99DC055B24F0F5890011F408 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +100,9 @@
 		99DC056724F0F58A0011F408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99F5844524F4568D002C53C0 /* MockSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchService.swift; sourceTree = "<group>"; };
 		99F5844724F459D0002C53C0 /* SearchResultsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTest.swift; sourceTree = "<group>"; };
+		B55A12CEF1ED871CD64CB9FB /* Pods-Altimetrik_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altimetrik_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Altimetrik_Tests/Pods-Altimetrik_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFDF5A09E68A992F2DF437CF /* Pods_Altimetrik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Altimetrik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CFB399DD4DCC0D18F6A56C /* Pods_Altimetrik_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Altimetrik_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7667DB37E9CDCF84B02744C /* Pods_Altimetrik_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC452697EE4EC1D5F3899B2 /* Pods_Altimetrik.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,9 +177,9 @@
 		99C00F9224F256E7008FF084 /* Altimetrik_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				99C00F9324F256E7008FF084 /* Altemetrik_Tests.swift */,
+				99C00F9324F256E7008FF084 /* Altimetrik_Tests.swift */,
 				99C00F9524F256E7008FF084 /* Info.plist */,
-				99D77A9424F452E900D13285 /* ViewControllerTests.swift */,
+				99D77A9424F452E900D13285 /* SearchViewControllerTests.swift */,
 				99F5844524F4568D002C53C0 /* MockSearchService.swift */,
 				99F5844724F459D0002C53C0 /* SearchResultsTest.swift */,
 				9944CBC724F4FFF700C9BC53 /* AlbumViewModelTest.swift */,
@@ -223,6 +233,8 @@
 				9944CBCD24F5474200C9BC53 /* Reachability.framework */,
 				9944CBCF24F5474200C9BC53 /* Realm.framework */,
 				9944CBD124F5474200C9BC53 /* RealmSwift.framework */,
+				DFDF5A09E68A992F2DF437CF /* Pods_Altimetrik.framework */,
+				E2CFB399DD4DCC0D18F6A56C /* Pods_Altimetrik_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,6 +242,10 @@
 		B190F1CD6A4652E45B8DE614 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				877F675CB17DB15745611005 /* Pods-Altimetrik.debug.xcconfig */,
+				36A126AA85D8C762CA0A1B21 /* Pods-Altimetrik.release.xcconfig */,
+				B55A12CEF1ED871CD64CB9FB /* Pods-Altimetrik_Tests.debug.xcconfig */,
+				6C8FB0F9AE2B4DCD4E151744 /* Pods-Altimetrik_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -241,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99C00F9824F256E7008FF084 /* Build configuration list for PBXNativeTarget "Altimetrik_Tests" */;
 			buildPhases = (
+				9CBBB14C808FD30714C4FFB2 /* [CP] Check Pods Manifest.lock */,
 				99C00F8D24F256E7008FF084 /* Sources */,
 				99C00F8E24F256E7008FF084 /* Frameworks */,
 				99C00F8F24F256E7008FF084 /* Resources */,
+				5C28DD93730BD19797FC2ACC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99DC056A24F0F58A0011F408 /* Build configuration list for PBXNativeTarget "Altimetrik" */;
 			buildPhases = (
+				F22D07438D36A0A78608A16C /* [CP] Check Pods Manifest.lock */,
 				99DC055224F0F5890011F408 /* Sources */,
 				99DC055324F0F5890011F408 /* Frameworks */,
 				99DC055424F0F5890011F408 /* Resources */,
+				53371555D6026298ED4D8E35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -333,6 +353,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53371555D6026298ED4D8E35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Altimetrik/Pods-Altimetrik-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Altimetrik/Pods-Altimetrik-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Altimetrik/Pods-Altimetrik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C28DD93730BD19797FC2ACC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Altimetrik_Tests/Pods-Altimetrik_Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Altimetrik_Tests/Pods-Altimetrik_Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Altimetrik_Tests/Pods-Altimetrik_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CBBB14C808FD30714C4FFB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Altimetrik_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F22D07438D36A0A78608A16C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Altimetrik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99C00F8D24F256E7008FF084 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -342,9 +443,9 @@
 				9944CBCA24F506EA00C9BC53 /* SearchServiceTest.swift in Sources */,
 				9944CBCC24F53DF300C9BC53 /* MockSearchResultManager.swift in Sources */,
 				99F5844624F4568D002C53C0 /* MockSearchService.swift in Sources */,
-				99D77A9524F452E900D13285 /* ViewControllerTests.swift in Sources */,
+				99D77A9524F452E900D13285 /* SearchViewControllerTests.swift in Sources */,
 				99F5844824F459D0002C53C0 /* SearchResultsTest.swift in Sources */,
-				99C00F9424F256E7008FF084 /* Altemetrik_Tests.swift in Sources */,
+				99C00F9424F256E7008FF084 /* Altimetrik_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +509,7 @@
 /* Begin XCBuildConfiguration section */
 		99C00F9924F256E7008FF084 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55A12CEF1ED871CD64CB9FB /* Pods-Altimetrik_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -427,6 +529,7 @@
 		};
 		99C00F9A24F256E7008FF084 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C8FB0F9AE2B4DCD4E151744 /* Pods-Altimetrik_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +663,7 @@
 		};
 		99DC056B24F0F58A0011F408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877F675CB17DB15745611005 /* Pods-Altimetrik.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -577,6 +681,7 @@
 		};
 		99DC056C24F0F58A0011F408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A126AA85D8C762CA0A1B21 /* Pods-Altimetrik.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

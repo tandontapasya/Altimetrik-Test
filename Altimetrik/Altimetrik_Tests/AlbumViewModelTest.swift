@@ -3,7 +3,7 @@
 //
 
 import XCTest
-@testable import Altemetrik
+@testable import Altimetrik
 
 class AlbumViewModelTest: XCTestCase {
 
@@ -48,10 +48,9 @@ class AlbumViewModelTest: XCTestCase {
     }
     
     func testSearchManagerCreateAlbumCalled() {
-        mockAPIService.completeAlbums = [Album]()
-        sut.performSearch()
+        goToFetchAlbumsFinished()
         XCTAssert(mockSearchRealmManager.isCreateCalled)
-        XCTAssert(mockSearchRealmManager.isFetchCalled)
+        XCTAssertFalse(mockSearchRealmManager.isFetchCalled)
     }
 
     

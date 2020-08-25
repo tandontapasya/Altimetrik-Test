@@ -4,14 +4,14 @@
 
 import XCTest
 
-@testable import Altemetrik
+@testable import Altimetrik
 
 class MockSearchResultManager: XCTestCase {
-    var sut: SearchResultManager?
+    var sut: RealmOperationsManager?
     
     override func setUp() {
         super.setUp()
-        sut = SearchResultManager()
+        sut = RealmOperationsManager()
     }
 
     override func tearDown() {
